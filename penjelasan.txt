@@ -48,7 +48,7 @@ Adapun yang dilakukan improvement lainnya yaitu fitur tombol decimal "." dengan 
 
 Serta improvement lainnya seperti menambahkan variabel baru untuk displayValue agar tampilan kalkulator ketika dibersihkan dengan AC/all-clear tampilan pada screen kalkulator angkanya tidak bermasalah/rusak.
 
-Untuk project kalkulator sederhana ini juga saya taruh di repository github saya yang sifatnya public, juga saya hosting menggunakan layanan github pages yang tersedia di github.
-berikut link hosting statis project calculator-app nya:
+Untuk project kalkulator sederhana ini juga saya taruh di repository github saya yang sifatnya public, juga saya hosting menggunakan layanan github pages yang tersedia di github
+Berikut link hosting statis project calculator-appnya yang dapat diakses: https://donadhyatma.github.io/calculator-app/
 
 Jika mampir ke repository saya boleh di clone dan silakan jika mau dimodifikasi sendiri project ini untuk tujuan belajar. 
