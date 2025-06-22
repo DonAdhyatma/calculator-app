@@ -1,0 +1,54 @@
+Ini merupakan website aplikasi kalkulator sederhana
+Dibuat menggunakan teknologi HTML, CSS, dan Javascript.
+Website ini hanya frontend saja, sehingga tidak memerlukan interaksi dengan database.
+Saya mengikuti tutorial dari PDF yang diberikan tetapi ada sedikit improvement/peningkatan kode
+
+Adapun improvement kode yang saya lakukan yaitu pada bagian html, saya menambahkan footer dan element-element child lainnya:
+    <div class="wrap-footer">
+      <footer class="footer-design">
+        <p class="paragraf-one">Pengumpulan Tugas Week 1</p>
+        <p class="paragraf-two">Oleh Danni A. Rachman</p>
+      </footer>
+    </div>
+
+Dan juga menambahkan kode css untuk styling footer dengan selectornya berupa nama class element footer:
+.wrap-footer {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 400px;
+  border: 2px solid orange;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  height: 100px;
+}
+
+.footer-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  height: 100%;
+  font-weight: bold;
+}
+
+.paragraf-one,
+.paragraf-two {
+  margin: 8px 0;
+}
+
+Selanjutnya pada package ini terdapat 2 file javascript, yaitu script.js dan script-pdf.js.
+Yang diterapkan pada project ini menggunakan file script-pdf sesuai dengan arahan mentor kalkulator hanya melakukan operasi aritmatika dasar +, -, x, /.
+
+Sedangkan untuk file javascript yang bernama script.js itu merupakan improvement fitur kalkulator dari yang ada di pdf, yaitu dapat melakukan hitung percentage/persentase dan input karakter "." untuk bilangan decimal.
+Untuk file script.js saya dibantu pengerjaannya menggunakan ai yaitu claude ai, pada operasi aritmatikanya terdapat pengkondisian if untuk validasi input dari user.
+Adapun kode javascript tambahan lainnya yaitu untuk fitur percentage (%) ketika diterapkan pada operasi aritmatika, membuat logic pada perhitungan untuk +, -, x, / agar hasil perhitungannya sesuai dengan harapan, dan juga sesuai dengan perhitungan pada kalkulator umumnya.
+Adapun yang dilakukan improvement lainnya yaitu fitur tombol decimal "." dengan menambahkan variabel const inputDecimal dan const decimal, serta terdapat arrow function yang didalamnya berisi pengkondisian saat user input bilangan decimal.
+
+Serta improvement lainnya seperti menambahkan variabel baru untuk displayValue agar tampilan kalkulator ketika dibersihkan dengan AC/all-clear tampilan pada screen kalkulator angkanya tidak bermasalah/rusak.
+
+Untuk project kalkulator sederhana ini juga saya taruh di repository github saya yang sifatnya public, juga saya hosting menggunakan layanan github pages yang tersedia di github.
+berikut link hosting statis project calculator-app nya:
+
+Jika mampir ke repository saya boleh di clone dan silakan jika mau dimodifikasi sendiri project ini untuk tujuan belajar. 
